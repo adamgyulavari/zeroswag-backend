@@ -8,3 +8,5 @@ gem 'capistrano-bundler'
 gem 'capistrano-cookbook', require: false, group: :development
 gem 'capistrano-rbenv'
 gem 'mongoid'
+
+gem 'better_errors'
