@@ -1,0 +1,12 @@
+development:
+  clients:
+    default:
+      database: zeroswag_dev
+      hosts:
+        - localhost:27017
+
+production:
+  clients:
+    default:
+      host: localhost
+      database: zeroswag_production
