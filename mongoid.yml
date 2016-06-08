@@ -8,5 +8,6 @@ development:
 production:
   clients:
     default:
-      host: localhost
       database: zeroswag_production
+      hosts:
+        - localhost:27017
